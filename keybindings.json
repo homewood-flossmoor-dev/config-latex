@@ -1,0 +1,19 @@
+// Place your key bindings in this file to override the defaults
+[
+{
+    "key": "ctrl+o",
+    "command": "workbench.action.previousEditor",
+    "when": ""
+  },
+  //   {
+  //   "key": "tab",
+  //   "command": "tab",
+  //   "when": "editorTextFocus && !editorTabMovesFocus"
+  // },
+
+  {
+    "key": "shift+tab",
+    "command": "outdent",
+    "when": "editorTextFocus && !editorTabMovesFocus"
+    },
+]
