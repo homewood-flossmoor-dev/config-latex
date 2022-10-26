@@ -61,7 +61,6 @@
     "tabnine.experimentalAutoImports": true,
     "workbench.preferredDarkColorTheme": "Abyss",
     "window.autoDetectColorScheme": true,
-    //vim config lul
     "vim.insertModeKeyBindings": [
     {
       "before": ["k", "j"],
