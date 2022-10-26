@@ -1,0 +1,71 @@
+{
+    "workbench.colorTheme": "Aura Dark (Soft Text)",
+    "editor.inlineSuggest.enabled": true,
+    "github.copilot.enable": {
+        "*": true,
+        "yaml": false,
+        "plaintext": true,
+        "markdown": true,
+        "html": true,
+        "python": true
+    },
+    "workbench.iconTheme": "material-icon-theme",
+    "[vue]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "workbench.editorAssociations": {
+        "*.ipynb": "jupyter.notebook.ipynb"
+    },
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "files.associations": {
+        "*.py": "python"
+    },
+    "liveServer.settings.donotVerifyTags": true,
+    "terminal.integrated.commandsToSkipShell": [
+        "\"terminal.integrated.shellArgs.windows\": [\"-ExecutionPolicy\", \"Bypass\"]"
+    ],
+    "liveServer.settings.donotShowInfoMsg": true,
+    "git.enableSmartCommit": true,
+    "git.confirmSync": false,
+    "tailwindCSS.emmetCompletions": true,
+    "emmet.triggerExpansionOnTab": true,
+    "vetur.experimental.templateInterpolationService": true,
+    "gitlens.gitCommands.skipConfirmations": [
+        "fetch:command",
+        "stash-push:command",
+        "push:command",
+        "switch:command"
+    ],
+    "diffEditor.ignoreTrimWhitespace": false,
+    "files.exclude": {
+        "**/.classpath": true,
+        "**/.project": true,
+        "**/.settings": true,
+        "**/.factorypath": true
+    },
+    "sonarlint.ls.javaHome": "c:\\Users\\hello\\.vscode\\extensions\\sonarsource.sonarlint_managed-jre\\jre\\jdk-11.0.13+8-jre",
+    "sonarlint.rules": {
+        "javascript:S1117": {
+            "level": "off"
+        }
+    },
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "workbench.editor.splitInGroupLayout": "vertical",
+    "editor.fontFamily": "'Cascadia Code', Consolas, 'Courier New', monospace",
+    "editor.fontLigatures": true,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "tabnine.experimentalAutoImports": true,
+    "workbench.preferredDarkColorTheme": "Abyss",
+    "window.autoDetectColorScheme": true,
+    //vim config lul
+    "vim.insertModeKeyBindings": [
+    {
+      "before": ["k", "j"],
+      "after": ["Esc"]
+    }
+    ],
+}
